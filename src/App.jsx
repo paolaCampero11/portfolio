@@ -9,6 +9,9 @@ function App() {
 
   return (
     <>
+    <div class="bg-blue-500 text-white p-10 text-center font-bold text-3xl m-5 rounded-xl shadow-lg">
+  ¿Funciona Tailwind? 🤔
+</div>
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
