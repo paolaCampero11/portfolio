@@ -1,13 +1,11 @@
-
-import './App.css'
 import Navbar from './components/Navbar'
+import './App.css'
+import Footer from './components/Footer'
 
 function App() {
-  
   return (
     <>
-    
-    <Navbar/>
+      <Navbar/>
       
       <section id="hero" className="pt-16 min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 to-indigo-50">
         <div className="text-center px-4">
@@ -36,6 +34,7 @@ function App() {
         <h2 className="text-3xl font-bold">Contacto</h2>
       </section>
 
+      <Footer/>
     </>
   )
 }
