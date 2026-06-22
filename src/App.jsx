@@ -1,13 +1,14 @@
 import Navbar from './components/Navbar'
 import './App.css'
 import Footer from './components/Footer'
+import Hero from './sections/Hero'
 
 function App() {
   return (
     <>
       <Navbar/>
-      
-      <section id="hero" className="pt-16 min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 to-indigo-50">
+      <Hero/>
+      {/* <section id="hero" className="pt-16 min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 to-indigo-50">
         <div className="text-center px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
             Hola, soy <span className="text-blue-600">Paola Campero</span>
@@ -16,7 +17,7 @@ function App() {
             Frontend Developer & QA Engineer
           </p>
         </div>
-      </section>
+      </section> */}
 
       <section id="about" className="h-screen flex items-center justify-center bg-gray-100">
         <h2 className="text-3xl font-bold">Sobre Mí</h2>
