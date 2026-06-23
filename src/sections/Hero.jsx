@@ -5,7 +5,7 @@ import profilePicture from '../assets/profile_picture.png'
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center bg-gradient-to-br from-background/98 to-purple-950">
+    <section id="hero" className="min-h-screen flex items-center bg-gradient-to-br from-background/98 to-purple-950">
       <div className="mx-auto max-w-6xl px-6 py-20 lg:px-7">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center justify-items-center">
           
@@ -30,7 +30,7 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4 pt-4">
               <a
-                href="#projects"
+                href="#proyectos"
                 className="inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 transition-colors"
               >
                 Ver Proyectos
